@@ -5,6 +5,6 @@
   hosts: all
   become: yes
   vars_files:
-  - "variables-{{ environment }}.yaml"
+  - "variables-{{ environment }}.yaml" #variables-dev.yaml
   roles:
   - "{{ component }}"
