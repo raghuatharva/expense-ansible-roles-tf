@@ -1,3 +1,4 @@
-BACKEND_HOST: backend.app-dev.rohanandlife.site
+#BACKEND_HOST: backend.app-dev.rohanandlife.site ---- this is correct target group routing through app alb 
+BACKEND_HOST: app-dev.rohanandlife.site  # this is used since dns issue arrived 
 app_location: /usr/share/nginx/html
 component: frontend
