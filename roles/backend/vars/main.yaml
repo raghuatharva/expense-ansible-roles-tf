@@ -2,3 +2,4 @@ mysql_root_password: ExpenseApp1
 app_location: /app
 component: backend
 login_host: rds-expense-dev.cdsymmyy47n5.us-east-1.rds.amazonaws.com #(my route53 record) mysql-dev.rohanandlife.site did not worked ; this is rds endpoint
+login_host: mysql-dev.rohanandlife.site
